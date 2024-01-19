@@ -55310,7 +55310,7 @@ $S:46}
 A.a1S.prototype={
 $0(){var s=0,r=A.a1(t.P),q
 var $async$$0=A.a2(function(a,b){if(a===1)return A.Z(b,r)
-while(true)switch(s){case 0:try{B.Ra.i5("vibrate",A.aE(["duration",200,"pattern",B.bl,"repeat",-1,"amplitude",128,"intensities",B.bl],t.N,t.K),!1,t.H)}catch(p){}return A.a_(null,r)}})
+while(true)switch(s){case 0:try{B.Ra.i5("vibrate",A.aE(["duration",500,"pattern",B.bl,"repeat",-1,"amplitude",-1,"intensities",B.bl],t.N,t.K),!1,t.H)}catch(p){}return A.a_(null,r)}})
 return A.a0($async$$0,r)},
 $S:36}
 A.a5F.prototype={
