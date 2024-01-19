@@ -55446,7 +55446,7 @@ $0(){var s=0,r=A.a1(t.P),q,p
 var $async$$0=A.a2(function(a,b){if(a===1)return A.Z(b,r)
 while(true)switch(s){case 0:try{q=$.ahV().i(0,"navigator")
 A.agt("_navigator.hasProperty('vibrate') "+A.h(q.m_("vibrate")))
-if(q.m_("vibrate"))q.ia("vibrate",A.a([500],t.t))}catch(o){}return A.a_(null,r)}})
+if(q.m_("vibrate"))q.ia("vibrate",A.a([50],t.t))}catch(o){}return A.a_(null,r)}})
 return A.a0($async$$0,r)},
 $S:34}
 A.a5S.prototype={
