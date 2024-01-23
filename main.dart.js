@@ -25695,9 +25695,11 @@ _.a=a
 _.b=b
 _.c=c
 _.d=d},
-wT:function wT(a,b,c){this.c=a
-this.d=b
-this.a=c},
+wT:function wT(a,b,c,d){var _=this
+_.c=a
+_.d=b
+_.e=c
+_.a=d},
 V9:function V9(a,b,c,d){var _=this
 _.d=$
 _.f=_.e=0
@@ -80736,8 +80738,10 @@ r=new A.yF(q,16,B.a12,B.an,B.Nt,o)
 r.x=B.a_8
 r.r=B.IM
 if(q<0||q>1)A.Z(A.cd("Percent value must be a double between 0.0 and 1.0, but it's "+A.h(q)))
-q=this.a
-return A.je(B.bd,A.a([A.iH(A.a([B.a2L,s,B.bZ,new A.cl(B.Mm,A.iH(A.a([p,B.E5,r],n),B.L,B.X,B.b8),o),B.bY,A.eU(A.a([A.avp(B.a7U,new A.amj(a)),A.avp(B.a7V,new A.amk(a)),A.avp(B.a7Q,new A.aml(a))],n),B.L,B.jE,B.a2),B.bY],n),B.L,B.X,B.a2),A.fD(new A.wT(q.d.c.e,new A.amm(q),o),o,o)],n),B.a0,B.aY)},
+s=A.iH(A.a([B.a2L,s,B.bZ,new A.cl(B.Mm,A.iH(A.a([p,B.E5,r],n),B.L,B.X,B.b8),o),B.bY,A.eU(A.a([A.avp(B.a7U,new A.amj(a)),A.avp(B.a7V,new A.amk(a)),A.avp(B.a7Q,new A.aml(a))],n),B.L,B.jE,B.a2),B.bY],n),B.L,B.X,B.a2)
+r=this.a
+q=r.d.c
+return A.je(B.bd,A.a([s,A.fD(new A.wT(q.e,q.b>0,new A.amm(r),o),o,o)],n),B.a0,B.aY)},
 $S:523}
 A.ami.prototype={
 $0(){},
@@ -80846,20 +80850,21 @@ $S:527}
 A.amc.prototype={
 $1(a){var s,r,q,p,o,n,m=this.b,l=m.jC(B.j),k=a.c,j=m.a/2
 if(Math.abs(k.a8(0,l).gdg())>j)return
-s=l.a
-r=l.b
-q=this.a
-p=q.f=q.f-(k.a-s)/s*0.2
-o=q.e=q.e+(k.b-r)/r*0.2
-if((o>0.17453292519943295?q.e=0.17453292519943295:o)<-0.17453292519943295)q.e=-0.17453292519943295
-if((p>0.17453292519943295?q.f=0.17453292519943295:p)<-0.17453292519943295)q.f=-0.17453292519943295
-p=q.r-=0.03
-if(p<0.95)q.r=0.95
+s=this.a
+if(!s.a.d)return
+r=l.a
+q=l.b
+p=s.f=s.f-(k.a-r)/r*0.2
+o=s.e=s.e+(k.b-q)/q*0.2
+if((o>0.17453292519943295?s.e=0.17453292519943295:o)<-0.17453292519943295)s.e=-0.17453292519943295
+if((p>0.17453292519943295?s.f=0.17453292519943295:p)<-0.17453292519943295)s.f=-0.17453292519943295
+p=s.r-=0.03
+if(p<0.95)s.r=0.95
 n=k.a8(0,new A.t(j,m.b/2))
 m=B.HK.aez()
-q.z.push(new A.Qs(Date.now(),n,m*0.3-0.3,-1))
+s.z.push(new A.Qs(Date.now(),n,m*0.3-0.3,-1))
 A.aAu(new A.amb(),t.P)
-q.a.d.$0()},
+s.a.e.$0()},
 $S:56}
 A.amb.prototype={
 $0(){var s=0,r=A.O(t.P),q,p
@@ -81258,6 +81263,7 @@ A.zd.prototype={
 ak(){return new A.XE(B.m)}}
 A.XE.prototype={
 aI(){this.b4()
+Telegram.WebApp.setHeaderColor("#000000")
 Telegram.WebApp.expand()},
 N(a){A.aPw(B.a3O)
 return new A.Aw(new A.aoZ(),null)}}
