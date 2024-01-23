@@ -80762,7 +80762,7 @@ A.wS.prototype={
 ak(){return new A.V7(A.a([],t.gv),B.m)}}
 A.V7.prototype={
 aH(){this.b4()
-this.x=A.aCy(A.cx(B.d.V(16666.666666666668),0),new A.ame(this))},
+this.x=A.aCy(A.cx(B.d.V(33333.333333333336),0),new A.ame(this))},
 n(){var s=this.x
 if(s!=null)s.aJ(0)
 this.aW()},
@@ -80817,17 +80817,17 @@ B.b.B(f,new A.ae(e,new A.amb(),A.a5(e).h("ae<1,k>")))
 return A.je(B.bc,f,B.a0,B.aY)}}
 A.ame.prototype={
 $1(a){var s,r=this.a,q=r.d
-if(q>0){q-=0.011635528346628865
+if(q>0){q-=0.02327105669325773
 r.d=q
-if(q<0)r.d=0}else if(q<0){q+=0.011635528346628865
+if(q<0)r.d=0}else if(q<0){q+=0.02327105669325773
 r.d=q
 if(q>0)r.d=0}q=r.e
-if(q>0){q-=0.011635528346628865
+if(q>0){q-=0.02327105669325773
 r.e=q
-if(q<0)r.e=0}else if(q<0){q+=0.011635528346628865
+if(q<0)r.e=0}else if(q<0){q+=0.02327105669325773
 r.e=q
 if(q>0)r.e=0}q=r.f
-if(q<1)r.f=q+0.001666666666666667
+if(q<1)r.f=q+0.003333333333333334
 q=r.y
 s=A.a5(q).h("aR<1>")
 r.y=A.ad(new A.aR(q,new A.amc(),s),!0,s.h("j.E"))
