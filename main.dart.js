@@ -80773,7 +80773,7 @@ this.y=A.aCy(A.ct(B.d.V(16666.666666666668),0),new A.ame(this))},
 n(){var s=this.y
 if(s!=null)s.aK(0)
 this.XO()},
-N(a){var s,r=this,q=null,p=t.l,o=Math.min(A.ev(a,q,p).w.a.a,A.ev(a,q,p).w.a.b)*0.6,n=r.d
+N(a){var s,r=this,q=null,p=t.l,o=Math.min(A.ev(a,q,p).w.a.a,A.ev(a,q,p).w.a.b)*0.75,n=r.d
 if(n===$){s=A.f6(q,q,q,q,r)
 s.Rz(0,1,0,A.ct(0,100))
 r.d!==$&&A.aB()
