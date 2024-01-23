@@ -79577,10 +79577,10 @@ a98(a,b,c,d){return this.geH().$4$clickRate$energyCurrent$energyRecovery$energyT
 A.wC.prototype={
 ag(){return new A.UF($.a1P().xZ(0,t.g5),B.m)}}
 A.UF.prototype={
-az(){this.aZ()
-var s=$.a1N().c
+az(){var s=$.a1N().c
 new A.dz(s,A.m(s).h("dz<1>")).jQ(new A.alI())
-J.aIP(Telegram.WebApp.BackButton,A.bk(new A.alJ(this)))},
+J.aIP(Telegram.WebApp.BackButton,A.bk(new A.alJ(this)))
+this.aZ()},
 U(a){var s=t.g5
 return A.atY(A.afe(B.o,A.FW(new A.alG(this),s,t.Rf)),new A.alH(this),s)},
 n(){this.d.ad(0)
