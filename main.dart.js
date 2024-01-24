@@ -82448,7 +82448,7 @@ A.pp.prototype={
 $1(a){return this.TG(a)},
 TG(a){var s=0,r=A.M(t.rK),q
 var $async$$1=A.N(function(b,c){if(b===1)return A.J(c,r)
-while(true)switch(s){case 0:q=new A.c4(A.a([new A.cV("taskId","Arbuz",u.J,1000,$.aIp,A.a([new A.jC("1","Follow Arbuz Telegram",u.A,u.J,B.hU,"https://t.me/tonarbuz"),new A.jC("2","Meta Silense TON",u.A,"https://cdn4.cdn-telegram.org/file/JPMkZZsyzp5oJxEPJsAbqw_mQk_wFfcJC1FxsEgDOw2NbBde7c6Nv5UPNx7_nFpQSe5rcCyu9HRale5rZwUlpINcNlHRwby2A07g8zi5b5eftKQ57VvbSYmwEpQNiSn8x3Bc6Ff7XLTRjHIsOQBemgW2WO__phq5ZtS7lvUT7bzO1v4d43UlMlhGwHQKyt9czjSEY6qfYMKx4EMsYwBkuWm2YbcyDWTao0G-0cXnmjFXB8uIfoXZiI6pRcz0MyQ1K7f7-q7_g8mkwr8CX0ORiywwpFvyHhFc4z7LQH25gIxN5JL7oeCpPVoAjSv_BuRhWvzcPeEzIBe5qt_uh3GyTg.jpg",B.hU,"https://t.me/+-EOfWx2pRKhmNGE6")],t.hu),"description")],t.ws),t.H_)
+while(true)switch(s){case 0:q=new A.c4(A.a([new A.cV("taskId","Arbuz",u.J,100,$.aIp,A.a([new A.jC("1","Follow Arbuz Telegram",u.A,u.J,B.hU,"https://t.me/tonarbuz"),new A.jC("2","Meta Silense TON",u.A,"https://cdn4.cdn-telegram.org/file/JPMkZZsyzp5oJxEPJsAbqw_mQk_wFfcJC1FxsEgDOw2NbBde7c6Nv5UPNx7_nFpQSe5rcCyu9HRale5rZwUlpINcNlHRwby2A07g8zi5b5eftKQ57VvbSYmwEpQNiSn8x3Bc6Ff7XLTRjHIsOQBemgW2WO__phq5ZtS7lvUT7bzO1v4d43UlMlhGwHQKyt9czjSEY6qfYMKx4EMsYwBkuWm2YbcyDWTao0G-0cXnmjFXB8uIfoXZiI6pRcz0MyQ1K7f7-q7_g8mkwr8CX0ORiywwpFvyHhFc4z7LQH25gIxN5JL7oeCpPVoAjSv_BuRhWvzcPeEzIBe5qt_uh3GyTg.jpg",B.hU,"https://t.me/+-EOfWx2pRKhmNGE6")],t.hu),"description")],t.ws),t.H_)
 s=1
 break
 case 1:return A.K(q,r)}})
