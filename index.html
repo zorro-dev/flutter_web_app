@@ -29,6 +29,35 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #list-container {
+            height: 100vh;
+            overflow-y: scroll;
+        }
+
+        .list-item {
+            padding: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+    </style>
+
+  <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get the list container
+            var listContainer = document.getElementById("list-container");
+
+            // Scroll down by 100 pixels after loading
+            listContainer.scrollTop = 100;
+        });
+    </script>
+
   <title>web_app</title>
   <link rel="manifest" href="manifest.json">
 <!--  <link rel="stylesheet" href="styles.css">-->
@@ -39,13 +68,19 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "379282701";
+    const serviceWorkerVersion = "894542694";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="https://telegram.org/js/telegram-web-app.js" defer=""></script>
   <script src="flutter.js" defer></script>
 </head>
-<!--<body>-->
+<body>
+<!--<script>-->
+<!--  HTMLElement.prototype.scrollToCenter = function(){-->
+<!--    window.scrollBy(0, 50);-->
+<!--  }-->
+<!--</script>-->
+
 <!--  <script>-->
 <!--    window.addEventListener('load', function(ev) {-->
 <!--      // Download main.dart.js-->
@@ -69,169 +104,65 @@
 <!--    });-->
 <!--  </script>-->
 
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul><ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-
+<div id="list-container">
+  <!-- Generating 100 list items -->
+  <div class="list-item">Item 1</div>
+  <div class="list-item">Item 2</div>
+  <div class="list-item">Item 3</div>
+  <div class="list-item">Item 3</div>
+  <div class="list-item">Item 3</div>
+  <div class="list-item">Item fsd3</div>
+  <div class="list-item">Item 3</div>
+  <div class="list-item">Item 3</div>
+  <div class="list-item">Item 3</div>
+  <div class="list-item">Item 3</div>
+  <div class="list-item">Item 3</div>
+  <div class="list-item">Item 3</div>
+  <div class="list-item">Item 3</div>
+  <div class="list-item">Item 3</div>
+  <div class="list-item">Item 3</div>
+  <div class="list-item">Itemsdf 3</div>
+  <div class="list-item">Item 3</div>
+  <div class="list-item">Itsdfem 3</div>
+  <div class="list-item">Item 3</div>
+  <div class="list-item">Itemsdf 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <div class="list-item">Itesdssdfgfm 3</div>
+  <!-- ... Repeat for items 4 to 100 ... -->
+  <div class="list-item">Item 10asd0</div>
+  <div class="list-item">Item 1asd00</div>
+  <div class="list-item">Item 100</div>
+  <div class="list-item">Item 100</div>
+  <div class="list-item">Item 100</div>
+  <div class="list-item">Item 100</div>
+  <div class="list-item">Item 100</div>
+  <div class="list-item">Item 100</div>
+  <div class="list-item">Item 100</div>
+  <div class="list-item">Item 100</div>
+  <div class="list-item">Item 100</div>
+</div>
 </body>
 </html>
