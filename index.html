@@ -47,6 +47,7 @@
             border-bottom: 1px solid #ccc;
         }
 
+
     </style>
 
     <title>web_app</title>
@@ -59,7 +60,8 @@
 
     <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1015931732";
+    const serviceWorkerVersion = "1278386318";
+
 
     </script>
     <!-- This script adds the flutter initialization JS code -->
@@ -85,6 +87,7 @@
     });
 
 
+
 </script>
 
 <script>
@@ -96,14 +99,16 @@
             listContainer.scrollTop = 100;
         });
 
-    </script>
+  document.addEventListener("touchmove", function (event) {
+        event.preventDefault();
+    },
+    {
+        passive: false
+   });
 
-<!--  document.addEventListener("touchmove", function (event) {-->
-<!--  event.preventDefault();-->
-<!--  },-->
-<!--  {-->
-<!--  passive: false-->
-<!--  });-->
+
+</script>
+
 
 <div id="list-container">
     <!-- Generating 100 list items -->
